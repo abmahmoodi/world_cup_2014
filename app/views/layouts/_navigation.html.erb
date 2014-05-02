@@ -1,0 +1,12 @@
+<div class="ui green inverted menu">
+
+  <%= link_to '<i class="home icon" ></i>صفحه اصلی'.html_safe, '/home/index',
+               class: (params[:controller] == 'home') ? 'active item' : 'item' %>
+
+  <%= link_to '<i class="calendar icon" ></i>جام جهانی برزیل'.html_safe, '/world_cup/index',
+              class: (params[:controller] == 'world_cup') ? 'active item' : 'item' %>
+
+  <%= link_to '<i class="info icon" ></i>درباره ما'.html_safe, '/about/index',
+              class: (params[:controller] == 'about') ? 'active item' : 'item' %>
+
+</div>

@@ -1,0 +1,86 @@
+@import "semantic-ui";
+@import "semantic-ui/collections/menu";
+
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require_self
+ *= require_tree .
+ */
+
+@font-face {
+  font-family: 'BYekan';
+  src: url('BYekan.eot?#') format('eot'),  /* IE6–8 */
+  url('BYekan.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+  url('BYekan.ttf') format('truetype');  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+}
+
+@font-face {
+  font-family: 'BHoma';
+  src: url('BHoma.eot?#') format('eot'),  /* IE6–8 */
+  url('BHoma.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+  url('BHoma.ttf') format('truetype');  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+}
+
+@font-face {
+  font-family: 'BKoodakBold';
+  src: url('BKoodakBold.eot?#') format('eot'),  /* IE6–8 */
+  url('BKoodakBold.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+  url('BKoodakBold.ttf') format('truetype');  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+}
+
+.button {
+  font-family: byekan;
+}
+
+.ui.inverted.menu .item,
+.ui.inverted.menu .item > a {
+
+  font-family: byekan;
+}
+
+h4.ui.header {
+  line-height: 1.33;
+  font-size: 23px;
+  font-family: BKoodakBold;
+}
+
+.ui.grid > .column,
+.ui.grid > .row > .column {
+  text-align: right;
+}
+
+.ui.grid > .column,
+.ui.grid > .row > .column {
+  font-size: 12px;
+}
+
+.footer {
+  bottom: 0;
+}
+
+.footer p {
+  direction: ltr;
+  text-align: left;
+}
+
+.footer a {
+  color: green;
+  text-decoration: none;
+}
+
+.about p, .about h3, .about h4{
+  direction: ltr;
+  text-align: left;
+}
+
+.about p {
+  font-size: 14px;
+}
