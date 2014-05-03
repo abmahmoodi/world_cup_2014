@@ -1,10 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DataSourceManagerImpl" format="xml" hash="1799199508">
+  <component name="DataSourceManagerImpl" format="xml" hash="2427442087">
     <data-source source="LOCAL" name="Rails world_cup_2014: development" uuid="f4afdf16-6a64-44e9-8c6f-329965c6a582">
       <driver-ref>sqlite.xerial</driver-ref>
-      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
-      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/db/development.sqlite3</jdbc-url>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:worldcup2014</jdbc-url>
+      <user-name>postgres</user-name>
+      <user-password>df9b</user-password>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails world_cup_2014: test" uuid="15d39cdd-2f0b-49b2-b9fd-d00647a8325e">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:worldcup2014</jdbc-url>
+      <user-name>postgres</user-name>
+      <user-password>df9b</user-password>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails world_cup_2014: cucumber" uuid="5c231104-8901-44ea-9f99-4b104e890f57">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:worldcup2014</jdbc-url>
+      <user-name>postgres</user-name>
+      <user-password>df9b</user-password>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails world_cup_2014: production" uuid="213b3f20-37c9-4e24-a12d-bcdec171a7e3">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:worldcup2014</jdbc-url>
+      <user-name>postgres</user-name>
+      <user-password>df9b</user-password>
       <libraries />
     </data-source>
   </component>

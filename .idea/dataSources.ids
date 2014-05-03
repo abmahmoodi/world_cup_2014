@@ -3,4 +3,13 @@
   <data-source source="LOCAL" name="Rails world_cup_2014: development" uuid="f4afdf16-6a64-44e9-8c6f-329965c6a582">
     <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
   </data-source>
+  <data-source source="LOCAL" name="Rails world_cup_2014: test" uuid="15d39cdd-2f0b-49b2-b9fd-d00647a8325e">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source source="LOCAL" name="Rails world_cup_2014: cucumber" uuid="5c231104-8901-44ea-9f99-4b104e890f57">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source source="LOCAL" name="Rails world_cup_2014: production" uuid="213b3f20-37c9-4e24-a12d-bcdec171a7e3">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
 </component>
