@@ -29,6 +29,7 @@ end
 
 # Semantic ui
 gem 'semantic-ui-sass', github: 'doabit/semantic-ui-sass'
+gem 'rails_12factor', group: :production
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
