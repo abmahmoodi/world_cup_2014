@@ -31,24 +31,19 @@
 
         <p>در این سایت می توانید نتایج و زمان بازی های جام جهانی 2014 برزیل را مشاهده کنید.</p>
         <h4 class="ui header">
-          تیم های شرکت کننده
+          تیم های شرکت کننده در جام جهانی
         </h4>
 
-        <div class="ui seven column grid">
-          <div class="column">
-            <div class="ui segment">
-              <%= image_tag '/images/flags/algeria_circle.png', class: 'ui avatar image' %>
-              <%= I18n.t(:"country.ALGERIA") %>
-            </div>
-          </div>
-          <div class="column">
-            <div class="ui segment">
-              <%= image_tag '/images/flags/argentina_circle.png', class: 'ui avatar image' %>
-              <%= I18n.t(:"country.ARGENTINA") %>
-            </div>
-          </div>
+        <div class="ui eight column grid">
+          <%= @teams['name'].each do |name| %>
+              <div class="column">
+                <div class="ui segment teams">
+                  <%= image_tag "/images/flags/#{name}.png", class: 'ui big avatar image' %>
+                  <%= I18n.t(:"country.#{name}") %>
+                </div>
+              </div>
+          <% end %>
         </div>
-
       </div>
     </div>
   </div>
