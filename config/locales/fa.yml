@@ -1,4 +1,8 @@
 fa:
+  menu:
+    main: صفحه اصلی
+    world_cup: جام جهانی برزیل
+    about: درباره ما
   country:
     Greece: یونان
     Russia: روسیه
@@ -12,7 +16,7 @@ fa:
     England: انگلستان
     Switzerland: سوییس
     Belgium: بلژیک
-    Bosnia_Herzegovina: بوسنی هرزگوین
+    Bosnia_Herzegovina: بوسنی
     Algeria: الجزایر
     Ivory: ساحل آج
     Ghana: غنا

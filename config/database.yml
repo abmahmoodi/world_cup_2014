@@ -2,7 +2,7 @@ development:
   adapter: postgresql
   database: worldcup2014
   pool: 5
-  username: action
+  username: postgres
   password: 1
 
 # Warning: The database defined as "test" will be erased and
@@ -12,14 +12,14 @@ test: &test
   adapter: postgresql
   database: worldcup2014
   pool: 5
-  username: action
+  username: postgres
   password: 1
 
 production:
   adapter: postgresql
   database: worldcup2014
   pool: 5
-  username: action
+  username: postgres
   password: 1
 
 cucumber:

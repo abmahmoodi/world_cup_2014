@@ -42,7 +42,7 @@
 
 .ui.inverted.menu .item,
 .ui.inverted.menu .item > a {
-
+//  font-size: 15px;
   font-family: byekan;
 }
 
@@ -104,5 +104,15 @@ h4.ui.header {
 
 .des p {
   font-family: tahoma;
+  font-size: 12px;
+}
+
+.ui.horizontal.labels .label,
+.ui.horizontal.label {
+  margin: -0.125em 0.5em -0.125em 0em;
+  padding: 0.35em 1em;
+  min-width: 6em;
+  text-align: center;
+  text-decoration: none;
   font-size: 12px;
 }
