@@ -37,7 +37,7 @@
 }
 
 .button {
-  font-family: byekan;
+  font-family: BKoodakBold;
 }
 
 .ui.inverted.menu .item,
@@ -114,5 +114,37 @@ h4.ui.header {
   min-width: 6em;
   text-align: center;
   text-decoration: none;
+  font-size: 12px;
+}
+
+.ui.input input {
+  font-family: tahoma;
+  font-size: 12px;
+}
+
+.general-link a {
+  font-family: tahoma;
+  font-size: 11px;
+  float: left;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+h2, h3, h4 {
+  font-family: bhoma;
+  font-size: 18px;
+}
+
+.ui.items > .row > .item,
+.ui.items > .item {
+  float: right;
+}
+
+.ui.items > .row > .item,
+.ui.items > .item p {
+  font-family: tahoma;
   font-size: 12px;
 }

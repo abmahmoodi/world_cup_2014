@@ -32,14 +32,21 @@ end
 gem 'semantic-ui-sass', github: 'doabit/semantic-ui-sass'
 gem 'rails_12factor', group: :production
 
-# Use ActiveModel has_secure_password
-# gem 'bcrypt-ruby', '~> 3.0.0'
+gem "ckeditor"#, :git => "git@github.com:galetahub/ckeditor.git"
+gem "carrierwave"
+gem 'cloudinary'
+gem 'mini_magick', :git => 'git://github.com/minimagick/minimagick.git', :ref => '6d0f8f953112cce6324a524d76c7e126ee14f392'
 
-# Use unicorn as the app server
-# gem 'unicorn'
-
-# Use Capistrano for deployment
-# gem 'capistrano', group: :development
-
-# Use debugger
-# gem 'debugger', group: [:development, :test]
+gem 'cancan'
+gem 'devise', '>= 3.0.3'
+gem 'figaro'
+gem 'rolify', '3.3.0.rc4'
+gem 'simple_form', :git => 'git://github.com/plataformatec/simple_form.git'
+group :development do
+  gem 'better_errors'
+  gem 'binding_of_caller', :platforms=>[:mri_19, :mri_20, :rbx]
+  gem 'quiet_assets'
+  gem 'rails_layout'
+end
+gem 'protected_attributes'
+gem "will_paginate", git: 'git://github.com/mislav/will_paginate.git'

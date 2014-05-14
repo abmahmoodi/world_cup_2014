@@ -1,0 +1,26 @@
+<%= simple_form_for(@post) do |f| %>
+  <% if @post.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@post.errors.count, "error") %> prohibited this post from being saved:</h2>
+
+      <ul>
+      <% @post.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="ui input focus">
+    <%= f.text_field :title, placeholder: I18n.t(:'posts.title') %>
+  </div>
+  <div class="ui input focus">
+    <%= f.label :body, I18n.t(:'posts.body') %><br>
+    <%= f.cktext_area :body, :ckeditor => {:language => "fa"} %>
+  </div>
+    <div class="ui small buttons">
+      <%= link_to I18n.t(:'actions.back'), posts_path, class: 'ui blue button' %>
+      
+      <%= f.submit I18n.t(:'actions.create'), class: 'ui green button' %>
+    </div>  
+<% end %>

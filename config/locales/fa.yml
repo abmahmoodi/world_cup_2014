@@ -36,3 +36,12 @@ fa:
     Japan: ژاپن
     Korea: کره جنوبی
     Iran: ایران
+  posts:
+    new_post: مطلب جدید
+    title: عنوان
+    body: متن
+    worldcup_news: اخبار جام جهانی
+  actions:
+    create: ذخیره
+    edit_post: ویرایش
+    back: بازگشت

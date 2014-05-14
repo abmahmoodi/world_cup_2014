@@ -13,4 +13,9 @@
 //= require jquery
 //= require jquery_ujs
 //= require semantic-ui
+
+//= require ckeditor/override
+//= require ckeditor/init
+//= require cloudinary
+
 //= require_tree .

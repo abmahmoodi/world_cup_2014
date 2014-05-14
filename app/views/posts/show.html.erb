@@ -1,0 +1,11 @@
+<p id="notice"><%= notice %></p>
+<div class="ui form segment">
+  <h4 class="ui top attached header"><%= @post.title %></h4>
+  <div class="ui segment attached des">
+    <%= raw @post.body %>
+  </div>
+</div>
+    <div class="ui small buttons">
+      <%= link_to I18n.t(:'actions.back'), posts_path, class: 'ui blue button' %>
+      <%= link_to I18n.t(:'actions.edit_post'), edit_post_path(@post) , class: 'ui green button' %>
+    </div>  

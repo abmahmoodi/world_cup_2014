@@ -1,4 +1,7 @@
 WorldCup2014::Application.routes.draw do
+  devise_for :users
+  resources :posts
+
   get "about/index"
   get "home/index"
   get "world_cup/index"
