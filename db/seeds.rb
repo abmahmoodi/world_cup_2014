@@ -5,3 +5,6 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+user = User.where(email: 'msd.soft@gmail.com').first_or_initialize
+user.admin = true
+user.save
